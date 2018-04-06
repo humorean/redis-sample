@@ -12,7 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "serve-api": "json-server --watch ./api/db.json --port 3334"
+    "serve-api": "json-server --watch ./api/db.json --port 3334",
+    "start-express": "PORT=3335 node ./server/bin/www"
   },
   "devDependencies": {
     "json-server": "^0.12.1"
