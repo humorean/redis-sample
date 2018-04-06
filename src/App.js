@@ -1,5 +1,12 @@
+/**
+ * Create a page using React that lists the top 5 exchanges in ascending order by BTC volume given the api endpoint:
+ *   http://localhost:3333/volume
+ * 
+ * Work the way you are most comfortable and treat this as an everyday work task. You are allowed to look up
+ * documentation and search for answers.
+ */
+
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Top 5 Exchanges by BTC Volume</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        {/* list goes here */}
+
       </div>
     );
   }
