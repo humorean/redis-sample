@@ -36,10 +36,11 @@ The api should now be running at [http://localhost:3334/volume](http://localhost
 Instructions for the frontend test are found in `./src/App.js`. This file should be opened in the editor for the candidate.
 
 ```
-Create a unordered list using React that lists the top 5 exchanges by volume of currency type Bitcoin (BTC) in
-ascending order given the api endpoint: http://localhost:3334/volume
+Create an unordered list using React that lists the top 5 exchanges by volume of currency type Bitcoin
+(BTC) in ascending order given the api endpoint: http://localhost:3334/volume
 
-Work the way you are most comfortable and treat this as an everyday task. You are allowed to ask questions, look up documentation and search for answers.
+Work the way you are most comfortable and treat this as an everyday task. You are allowed to ask
+questions, look up documentation and search for answers.
 ```
 
 ### Test goals
@@ -81,10 +82,13 @@ yarn start-express
 ### Test instructions
 The private api should now be running at [http://localhost:3334/volume](http://localhost:3334/volume) and the express app should be running at [http://localhost:3335/api](http://localhost:3335/api)
 
+Instructions for the backend test are found in `./server/routes/api.js`. This file and the Express app entry point `./server/app.js` should be opened in the editor for the candidate. Terminal should be available as well.
+
+
 ```
 A front end application requires a new http endpoint to be built in this Express application.
 
-1) /api/volume
+1) Create a new endpoint at http://localhost:3335/api/volume
 A list of the top 5 exchanges by volume of currency type Bitcoin (BTC) in ascending order given data
 from the private api endpoint: http://localhost:3334/volume
 
@@ -108,8 +112,8 @@ The frontend expects the api data to match this schema:
 
 3) The data is expected to be valid for 24 hours. Provide caching for this endpoint.
 
-Feel free to install any helper packages. Work the way you are most comfortable and treat this as an everyday task. 
-You are allowed to ask questions, look up documentation and search for answers.
+Feel free to install any helper packages. Work the way you are most comfortable and treat this as an
+everyday task. You are allowed to ask questions, look up documentation and search for answers.
 ```
 
 ### Test goals
@@ -118,7 +122,7 @@ The goals for this task are to see if the candidate is able to:
 - successfully make an api call
 - process the api data using common array methods: filter, sort
 - respond only after api call is complete
-- return the response as valid JSON matching schema
+- return the response as valid JSON, matching provided schema
 - filter data by path parameter
 - appropriately set response headers
 

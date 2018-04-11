@@ -1,7 +1,7 @@
 /**
  * A front end application requires a new http endpoint to be built in this Express application.
  * 
- * 1) /api/volume
+ * 1) Create a new endpoint at http://localhost:3335/api/volume
  * A list of the top 5 exchanges by volume of currency type Bitcoin (BTC) in ascending order given data
  * from the private api endpoint: http://localhost:3334/volume
  * 
