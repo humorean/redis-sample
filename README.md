@@ -37,7 +37,7 @@ Instructions for the frontend test are found in `./src/App.js`. This file should
 
 ```
 Create an unordered list using React that lists the top 5 exchanges by volume of currency type Bitcoin
-(BTC) in ascending order given the api endpoint: http://localhost:3334/volume
+(BTC) in descending order given the api endpoint: http://localhost:3334/volume
 
 Work the way you are most comfortable and treat this as an everyday task. You are allowed to ask
 questions, look up documentation and search for answers.
@@ -89,7 +89,7 @@ Instructions for the backend test are found in `./server/routes/api.js`. This fi
 A front end application requires a new http endpoint to be built in this Express application.
 
 1) Create a new endpoint at http://localhost:3335/api/volume
-A list of the top 5 exchanges by volume of currency type Bitcoin (BTC) in ascending order given data
+A list of the top 5 exchanges by volume of currency type Bitcoin (BTC) in descending order given data
 from the private api endpoint: http://localhost:3334/volume
 
 The frontend expects the api data to match this schema:
